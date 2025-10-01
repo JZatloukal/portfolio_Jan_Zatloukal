@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <!-- Základní meta informace -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jan Zatloukal - Portfolio</title>
+  <meta name="description" content="Portfolio Jana Zatloukala - Python Developer se zaměřením na backend a webové aplikace.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Externí knihovny -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  
+  <!-- Vlastní styly -->
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+ 
+  <!-- === HLAVIČKA SEKCE === -->
+  <header id="hero" class="section-box" role="banner" aria-label="Hero sekce">
+    <div class="hero-grid">
+      <div class="hero-avatar">
+        <img src="static/avatar.png" alt="Avatar Jan Zatloukal">
+      </div>
+      <div class="hero-text">
+        <h1 aria-live="polite" aria-atomic="true">
+          <span id="name-text"></span>
+          <span class="name-badges">
+            <a href="https://github.com/JZatloukal" target="_blank" class="badge-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:johnnyzatloukal@gmail.com" class="badge-icon" aria-label="E-mail"><i class="fas fa-envelope"></i></a>
+          </span>
+        </h1>
+        <div class="claim" aria-live="polite" aria-atomic="true">
+          <span id="claim-text"></span><span class="cursor"></span>
+        </div>
+        <p class="tagline">Python Developer zaměřený na backend a webové aplikace</p>
+      </div>
+    </div>
+  </header>
+
+    <main>
+      <div class="one-box">
+        <!-- === O MNĚ SEKCE === -->
+        <section id="about" aria-labelledby="about-title">
+          <h2 id="about-title">O mně</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>K programování jsem se dostal jako samouk. Fascinovalo mě, jak lze pomocí několika řádků kódu vytvořit něco užitečného. Dnes se zaměřuji na Python a webové aplikace.</p>
+              <p>Rád kombinuji logické myšlení s praktickým využitím a hledám efektivní řešení, která mají reálný přínos.</p>
+            </div>
+            <div class="about-card" aria-label="Vizitka">
+              <ul class="about-card-list">
+                <li><span class="icon"><i class="fas fa-map-marker-alt"></i></span> <strong>Lokace:</strong> Hradec Králové</li>
+                <li><span class="icon"><i class="fas fa-graduation-cap"></i></span> <strong>Kurzy:</strong> Codefinity, ITnetwork (akreditovaný)</li>
+                <li><span class="icon"><i class="fas fa-lightbulb"></i></span> <strong>Zájmy:</strong> Moderní technologie, AI, finanční svět</li>
+                <li><span class="icon"><i class="fas fa-code"></i></span> <strong>Zaměření:</strong> Backend & webové aplikace</li>
+              </ul>
+            </div>
+            <div class="terminal" aria-label="Animace terminálu">
+              <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <pre id="terminal-output"></pre>
+              <button id="run-terminal" class="run-btn">Spustit</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- === DOVEDNOSTI SEKCE === -->
+        <section id="skills" class="reveal" aria-labelledby="skills-title">
+          <h2 id="skills-title" class="reveal-item">Dovednosti</h2>
+          <div class="skills-cards">
+            <div class="skill-card reveal-item">
+              <h3 class="reveal-item">Backend</h3>
+              <div class="skills-grid">
+                <div class="skill-chip reveal-item"><i class="devicon-python-plain colored"></i> Python</div>
+                <div class="skill-chip reveal-item"><i class="devicon-flask-original colored"></i> Flask</div>
+                <div class="skill-chip reveal-item"><i class="devicon-django-plain colored"></i> Django</div>
+                <div class="skill-chip reveal-item"><i class="devicon-postgresql-plain colored"></i> SQL</div>
+              </div>
+            </div>
+            <div class="skill-card reveal-item">
+              <h3 class="reveal-item">Frontend</h3>
+              <div class="skills-grid">
+                <div class="skill-chip reveal-item"><i class="devicon-html5-plain colored"></i> HTML5</div>
+                <div class="skill-chip reveal-item"><i class="devicon-css3-plain colored"></i> CSS3</div>
+                <div class="skill-chip reveal-item"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+                <div class="skill-chip reveal-item"><i class="devicon-react-original colored"></i> React</div>
+              </div>
+            </div>
+            <div class="skill-card reveal-item">
+              <h3 class="reveal-item">Nástroje</h3>
+              <div class="skills-grid">
+                <div class="skill-chip reveal-item"><i class="devicon-git-plain colored"></i> Git</div>
+                <div class="skill-chip reveal-item"><i class="devicon-github-original colored"></i> GitHub</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- === ZKUŠENOSTI SECTION === -->
+        <section id="experience" class="reveal" aria-labelledby="experience-title">
+          <h2 id="experience-title" class="reveal-item">Zkušenosti</h2>
+          <div class="timeline-centered">
+            <div class="timeline-block" aria-label="Samostudium Pythonu">
+              <div class="timeline-content">
+                <h3 class="reveal-item">Samostudium Pythonu (Codefinity, W3Schools, CodeChef)</h3>
+                <span class="timeline-year reveal-item">2023 – 2024</span>
+                <p class="reveal-item">Získání základů programování, práce s OOP, algoritmy a tvorba prvních menších skriptů.</p>
+              </div>
+            </div>
+            <div class="timeline-block" aria-label="Rekvalifikační kurz ITnetwork">
+              <div class="timeline-content">
+                <h3 class="reveal-item">Rekvalifikační kurz ITnetwork (akreditovaný MŠMT)</h3>
+                <span class="timeline-year reveal-item">2024 – 2025</span>
+                <p class="reveal-item">
+                    V rámci kurzu jsem pracoval na menších aplikacích, kde jsem využil 
+                    <strong>Python a Django</strong> pro backend, <strong>SQLite</strong> pro ukládání dat a 
+                    <strong>JavaScript/React</strong> pro frontend. Díky <strong>Gitu</strong> a základům 
+                    testování jsem se naučil řídit vývojový cyklus. Důraz byl kladen i na <strong>moderní webdesign
+                    </strong> a použitelnost aplikací.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-block" aria-label="Vlastní projekty">
+              <div class="timeline-content">
+                <h3 class="reveal-item">Vlastní projekty</h3>
+                <span class="timeline-year reveal-item">2025</span>
+                <p class="reveal-item">
+                  <strong>Subly</strong> – webová aplikace pro správu předplatného (Python, Flask, SQLAlchemy).<br>
+                  <strong>Portfolio</strong> – osobní prezentace s interaktivními prvky (HTML, CSS, JS, Flask).<br>
+                  <strong>Další projekty</strong> – Password Manager, interaktivní hry a menší aplikace.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- === PROJEKTY SECTION === -->
+        <section id="projects" class="reveal" aria-labelledby="projects-title">
+          <h2 id="projects-title" class="reveal-item">Projekty</h2>
+          <div class="terminal" aria-label="Terminál projekty">
+            <div class="terminal-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <pre id="projects-terminal-output"></pre>
+            <button id="run-projects-terminal" class="run-btn">Vypsat projekty</button>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal-item">
+              <img src="static/images/subly.jpeg" alt="Náhled Subly">
+              <div class="card-content">
+                <h3>Subly</h3>
+                <div class="project-stack">
+                  <span class="stack-badge">Python</span>
+                  <span class="stack-badge">Flask</span>
+                  <span class="stack-badge">SQLite</span>
+                </div>
+                <p>Najděte všechna skrytá předplatná ve vašich bankovních výpisech. Subly analyzuje vaše transakce a automaticky identifikuje opakující se platby.</p>
+                <div class="project-icons">
+                  <a href="https://github.com/JZatloukal/subly" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://web-production-8624.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal-item">
+              <img src="static/images/password_mng.jpeg" alt="Náhled Password Manager">
+              <div class="card-content">
+                <h3>Password Manager</h3>
+                <div class="project-stack">
+                  <span class="stack-badge">Flask</span>
+                  <span class="stack-badge">React</span>
+                  <span class="stack-badge">SQLite</span>
+                </div>
+                <p>Udržujte svá hesla na jednom bezpečném místě. Jednoduché ovládání, rychlý generátor a ukládání účtů bez starostí.</p>
+                <div class="project-icons">
+                  <a href="https://github.com/JZatloukal/password-manager" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://password-manager-production-4657.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+  <!-- === ZÁPATÍ === -->
+  <footer role="contentinfo">
+    <div class="contact-links">
+      <a href="https://github.com/JZatloukal" target="_blank" class="contact-button contact-github">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      </a>
+      <a href="mailto:johnnyzatloukal@gmail.com" class="contact-button contact-email">
+        <i class="fas fa-envelope"></i> E-mail
+      </a>
+    </div>
+  </footer>
+<script src="static/js/index.js"></script>
+</body>
+</html>
