@@ -479,7 +479,7 @@ header {
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 520px; /* Zvětšená výška pro delší texty */
+  height: 480px; /* Optimalizovaná výška pro kratší texty */
 }
 
   .project-card:hover {
