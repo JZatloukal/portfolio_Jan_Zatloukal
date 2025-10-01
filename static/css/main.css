@@ -479,7 +479,7 @@ header {
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 450px; /* Zvětšená výška pro ikony */
+  height: 520px; /* Zvětšená výška pro delší texty */
 }
 
   .project-card:hover {
@@ -517,7 +517,7 @@ header {
     text-align: center;
     padding: 0;
     margin: 0.5rem 0 1rem 0;
-    min-height: 3.5rem;
+    min-height: 5rem;
   }
   .project-stack {
     display: flex;
