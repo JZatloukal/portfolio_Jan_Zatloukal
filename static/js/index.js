@@ -232,6 +232,19 @@ const observer = new IntersectionObserver((entries) => {
 
 reveals.forEach(reveal => observer.observe(reveal));
 
+// ===== FLIP KARTY FUNKCIONALITA =====
+// Inicializace flip karet po načtení DOM
+document.addEventListener('DOMContentLoaded', () => {
+  const projectCards = document.querySelectorAll('.project-card');
+  
+  projectCards.forEach(card => {
+    card.addEventListener('click', () => {
+      // Přepnutí třídy flipped
+      card.classList.toggle('flipped');
+    });
+  });
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   typeEffect();
   // typeTerminal(); // Animace terminálu už se nespouští automaticky

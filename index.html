@@ -154,7 +154,10 @@
             <button id="run-projects-terminal" class="run-btn">Vypsat projekty</button>
           </div>
           <div class="projects-grid">
-            <article class="project-card reveal-item">
+        <article class="project-card reveal-item">
+          <div class="flip-card-inner">
+            <!-- Přední strana karty -->
+            <div class="flip-card-front">
               <img src="static/images/subly.jpeg" alt="Náhled Subly">
               <div class="card-content">
                 <h3>Subly</h3>
@@ -164,13 +167,37 @@
                   <span class="stack-badge">SQLite</span>
                 </div>
                 <p>Subly analyzuje bankovní výpisy a automaticky identifikuje opakující se platby. Aplikace je postavená na Flasku s databází SQLite, pracuje s importovanými CSV soubory a provádí kategorizaci transakcí.</p>
-                <div class="project-icons">
-                  <a href="https://github.com/JZatloukal/subly" target="_blank"><i class="fab fa-github"></i></a>
-                  <a href="https://web-production-8624.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                <div class="flip-hint">
+                  <i class="fas fa-arrow-right"></i> Klikni pro odkazy
                 </div>
               </div>
-            </article>
-            <article class="project-card reveal-item">
+            </div>
+            
+            <!-- Zadní strana karty -->
+            <div class="flip-card-back">
+              <div class="card-back-content">
+                <h3>Subly</h3>
+                <div class="project-links">
+                  <a href="https://github.com/JZatloukal/subly" target="_blank" class="link-button github-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="https://web-production-8624.up.railway.app" target="_blank" class="link-button demo-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+                <div class="flip-hint">
+                  <i class="fas fa-arrow-left"></i> Klikni pro návrat
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal-item">
+          <div class="flip-card-inner">
+            <!-- Přední strana karty -->
+            <div class="flip-card-front">
               <img src="static/images/password_mng.jpeg" alt="Náhled Password Manager">
               <div class="card-content">
                 <h3>Password Manager</h3>
@@ -180,12 +207,33 @@
                   <span class="stack-badge">SQLite</span>
                 </div>
                 <p>Password Manager umožňuje ukládat účty a hesla na jednom bezpečném místě. Backend běží na Flasku s databází SQLite, frontend je psaný v Reactu.</p>
-                <div class="project-icons">
-                  <a href="https://github.com/JZatloukal/password-manager" target="_blank"><i class="fab fa-github"></i></a>
-                  <a href="https://password-manager-production-4657.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                <div class="flip-hint">
+                  <i class="fas fa-arrow-right"></i> Klikni pro odkazy
                 </div>
               </div>
-            </article>
+            </div>
+            
+            <!-- Zadní strana karty -->
+            <div class="flip-card-back">
+              <div class="card-back-content">
+                <h3>Password Manager</h3>
+                <div class="project-links">
+                  <a href="https://github.com/JZatloukal/password-manager" target="_blank" class="link-button github-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="https://password-manager-production-4657.up.railway.app" target="_blank" class="link-button demo-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+                <div class="flip-hint">
+                  <i class="fas fa-arrow-left"></i> Klikni pro návrat
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
           </div>
         </section>
       </div>
