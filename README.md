@@ -2,11 +2,11 @@
 
 Moderní portfolio webová stránka pro Python developera se zaměřením na backend a webové aplikace.
 
-## 🚀 Live Demo
+## Live Demo
 
 Portfolio je dostupné na: [https://jzatloukal.github.io/portfolio_Jan_Zatloukal/](https://jzatloukal.github.io/portfolio_Jan_Zatloukal/)
 
-## 📋 Obsah
+## Obsah
 
 - **Hero sekce** - Avatar s typewriter efektem
 - **O mně** - Osobní informace a cesta k programování
@@ -14,7 +14,7 @@ Portfolio je dostupné na: [https://jzatloukal.github.io/portfolio_Jan_Zatloukal
 - **Zkušenosti** - Timeline vzdělávání a projektů
 - **Projekty** - Interaktivní karty s projekty a funkčními odkazy
 
-## 🛠️ Technologie
+## Technologie
 
 ### Frontend
 - **HTML5** - Semantická struktura s ARIA atributy
@@ -27,7 +27,7 @@ Portfolio je dostupné na: [https://jzatloukal.github.io/portfolio_Jan_Zatloukal
 - **Animace** - Smooth scroll, reveal animace, hover efekty
 - **Typewriter efekt** - Animované psaní technologií
 
-## 📁 Struktura projektu
+## Struktura projektu
 
 ```
 portfolio_Jan_Zatloukal/
@@ -44,7 +44,7 @@ portfolio_Jan_Zatloukal/
 └── README.md
 ```
 
-## 🎨 Funkce
+## Funkce
 
 ### Interaktivní prvky
 - **Typewriter efekt** - Rotující animace technologií
@@ -61,7 +61,7 @@ portfolio_Jan_Zatloukal/
   - GitHub: [https://github.com/JZatloukal/password-manager](https://github.com/JZatloukal/password-manager)
   - Live demo: [https://password-manager-production-4657.up.railway.app](https://password-manager-production-4657.up.railway.app)
 
-## 🚀 Lokální spuštění
+## Lokální spuštění
 
 1. **Klonujte repozitář:**
 ```bash
@@ -83,14 +83,14 @@ php -S localhost:8000
 
 3. **Otevřete prohlížeč** na `http://localhost:8000`
 
-## 📱 Responzivní design
+## Responzivní design
 
 Portfolio je optimalizováno pro:
 - **Desktop** - Plná funkcionalita s hover efekty
 - **Tablet** - Přizpůsobený layout pro střední obrazovky
 - **Mobile** - Optimalizované pro dotykové ovládání
 
-## 🎯 SEO a přístupnost
+## SEO a přístupnost
 
 - **Semantické HTML** s ARIA atributy
 - **Meta tagy** pro SEO optimalizaci
@@ -98,16 +98,13 @@ Portfolio je optimalizováno pro:
 - **Keyboard navigation** podporované
 - **Screen reader** kompatibilní
 
-## 📞 Kontakt
+## Kontakt
 
 - **Email:** [johnnyzatloukal@gmail.com](mailto:johnnyzatloukal@gmail.com)
 - **GitHub:** [https://github.com/JZatloukal](https://github.com/JZatloukal)
 - **Lokace:** Hradec Králové, Česká republika
 
-## 📄 Licence
+## Licence
 
 Tento projekt je open source a dostupný pod [MIT licencí](LICENSE).
 
----
-
-**Vytvořeno s ❤️ Janem Zatloukalem** - Python Developer
